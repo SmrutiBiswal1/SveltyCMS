@@ -193,7 +193,7 @@ jobs:
       - uses: codecov/codecov-action@v4
         if: success()
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+          token: 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
           flags: vitest
 
   unit-bun:
